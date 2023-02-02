@@ -3,16 +3,15 @@ import sys
 import textwrap
 
 def cowsay(str, length=40):
-    return build_bubble(str, length) + build_owl()
+    return build_bubble(str, length) + build_cow()
 
-def build_owl():
+def build_cow():
     return """
-		 o
-		  o
-		   ___
-		  (o o)
-		 (  V  )
-		/--m-m-
+         \   ^__^ 
+          \  (oo)\_______
+             (__)\       )\/\\\\
+                 ||----w |
+                 ||     ||
     """
 
 def build_bubble(str, length=40):
