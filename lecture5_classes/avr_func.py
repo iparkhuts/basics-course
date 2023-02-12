@@ -1,5 +1,5 @@
 def avg(value):
-    return sum(value / len(value)
+    return sum(value) / len(value)
     
     
     
