@@ -1,9 +1,5 @@
-def avg(value):
-    return sum(value) / len(value)
+def average(*args):
+    return sum(args) / len(args)
     
     
     
-def a(a, *etc):
-       print('Got args', a, etc)
-    return a
-
